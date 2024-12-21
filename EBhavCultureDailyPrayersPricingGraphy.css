@@ -1,0 +1,894 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px !important;
+}
+
+.productBanner {
+    height: max-content;
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.productBanner {
+    background-color: #ffffff;
+    padding-top: 3rem;
+}
+
+.productBannerLeftSection {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.productBannerRightSection {
+    width: 50%;
+}
+
+.productBannerLeftSectionImg {
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.productBannerPreviewBtn,
+.productBannerAddToCartBtn {
+    height: max-content;
+    width: 40%;
+    margin-right: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 10rem;
+    background-image: linear-gradient(180deg, #FFF400 0%, #FFB90A 100%);
+    color: #142E60;
+    cursor: pointer;
+}
+
+.productBenefits {
+    background-color: #f0f5f8;
+    color: #6E6C6D;
+    padding-top: 1rem;
+    height: max-content;
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+
+.productBenefitsLeftSection,
+.productBenefitsRightSection {
+    width: 50%;
+}
+
+.productBenefitsLeftSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.productBenefitsLeftSectionHeading {
+    text-align: center;
+}
+
+.is-wrapper>div.is-section-100 {
+    height: max-content !important;
+}
+
+.is-wrapper h1,
+.is-wrapper h2,
+.is-wrapper h3,
+.is-wrapper h4,
+.is-wrapper h5,
+.is-wrapper h6 {
+    font-weight: 700;
+}
+
+.is-wrapper>div.is-section-50 {
+    height: auto;
+}
+
+
+.productBenefitsCardOne,
+.productBenefitsCardTwo,
+.productBenefitsCardThree,
+.productBenefitsCardFour,
+.productBenefitsCardFive {
+    height: max-content;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f1f1f1;
+    box-shadow: 2px 4px 8px rgb(0 0 0 / 57%);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.productBenefitsCardOneCheckmark,
+.productBenefitsCardTwoCheckmark,
+.productBenefitsCardThreeCheckmark,
+.productBenefitsCardFourCheckmark,
+.productBenefitsCardFiveCheckmark {
+    background: rgb(0, 51, 102);
+    background: linear-gradient(90deg, rgba(0, 51, 102, 1) 0%, rgba(0, 85, 140, 1) 100%);
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.productBenefitsCardOneStatement,
+.productBenefitsCardTwoStatement,
+.productBenefitsCardThreeStatement,
+.productBenefitsCardFourStatement,
+.productBenefitsCardFiveStatement {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000000;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+}
+
+.productBenefitsCardOneBoldText,
+.productBenefitsCardTwoBoldText,
+.productBenefitsCardThreeBoldText,
+.productBenefitsCardFourBoldText,
+.productBenefitsCardFiveBoldText,
+.aboutProductDescriptionBoldText {
+    color: #000000;
+    font-size: 17px;
+}
+
+.productBenefitsRightSection {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.productBenefitsRightSectionVideo {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+}
+
+.aboutProduct {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 2rem;
+}
+
+.aboutProductHeading {
+    padding-top: 2rem;
+    color: #6E6C6D;
+}
+
+.aboutProductHeading,
+.aboutProductDescription {
+    height: max-content;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutProductDescription {
+    text-align: left;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+}
+
+.aboutProductDescriptionCheckmark {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.aboutProductDescriptionCheckmark li:before {
+    content: '✓';
+}
+
+.productsFAQs {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1rem;
+    background-color: #f0f5f8;
+    color: #6E6C6D;
+    padding-bottom: 2rem;
+}
+
+.container-faqHeading {
+    padding-top: 2rem;
+    color: #6E6C6D !important;
+}
+
+.container-faq {
+    height: 100%;
+    width: 90%;
+    background-color: #f1f1f1;
+    color: #000;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.25);
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-weight: normal;
+    letter-spacing: 0.00rem;
+    line-height: 1.4;
+    text-transform: none;
+    padding: 20px 80px 20px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.question::after {
+    content: "";
+    font-size: 22px;
+    position: absolute;
+    right: 20px;
+    transition: 0.2s;
+    font-family: "Font Awesome 6 Pro";
+}
+
+.question.active::after {
+    transform: rotate(180deg);
+}
+
+.answercont {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.answer {
+    font-weight: 500 !important;
+    padding: 0 20px 20px;
+    line-height: 1.5rem;
+    color: #000;
+}
+
+.footer1 {
+    position: relative !important;
+    background: #222;
+    background-color: #f0f5f8;
+    color: #000;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footerColOne,
+.footerColTwo,
+.footerColThree {
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.footerColOne h6,
+.footerColTwo h6,
+.footerColThree h6 {
+    font-size: 14px;
+    color: #6E6C6D;
+    margin-bottom: 0px;
+}
+
+.footerColOne ul,
+.footerColTwo ul,
+.footerColThree ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footerColOne ul li,
+.footerColTwo ul li,
+.footerColThree ul li {
+    margin: 0px;
+    font-size: 12px;
+    color: #000;
+}
+
+.footerColOne ul li a,
+.footerColTwo ul li a {
+    color: #000 !important;
+    text-decoration: none;
+}
+
+.footerColThree ul a {
+    text-decoration: none !important;
+}
+
+.footerColOne ul li a:hover,
+.footerColTwo ul li a:hover {
+    color: #0399D6 !important;
+    transition: 0.1s ease-in-out;
+    list-style: none !important;
+}
+
+.footerColTwoAppImgOne {
+    max-width: 50% !important;
+}
+
+.footer1CopyrightBarDiv {
+    margin: 0px;
+    padding: 10px;
+    background: #0399D6;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer1CopyrightBar {
+    margin: 0px !important;
+    font-size: 14px !important;
+}
+
+.footerColThree ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    display: flex;
+    gap: 15px;
+}
+
+.footerColThree ul i {
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.footerColThree .facebook {
+    color: #ffffff;
+    background-color: #0866ff;
+    font-size: 18px;
+}
+
+.footerColThree .instagram {
+    color: #ffffff;
+    background: linear-gradient(45deg, #8A3AB9, #FD1D1D, #F5A623, #FDCB82);
+    font-size: 18px;
+}
+
+.footerColThree .whatsapp {
+    color: #ffffff;
+    background-color: #39de57;
+    font-size: 18px;
+}
+
+.footerColThree .youtube {
+    color: #ffffff;
+    background-color: #ff0033;
+    font-size: 18px;
+}
+
+.footerColThree .linkedin {
+    color: #ffffff;
+    background-color: #0a66c2;
+    font-size: 18px;
+}
+
+.footerColThree ul i:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.relative {
+    position: relative;
+    display: none;
+}
+
+.priceMainHeading {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.toggle {
+    margin-top: 2rem;
+    color: hsl(234, 14%, 74%);
+    display: flex;
+    align-items: center;
+}
+
+.toggleBtnMainDiv {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.toggleBtnMainDivLabels {
+    font-size: 20px;
+    font-weight: 800 !important;
+    color: #6e6c6d;
+    margin: 0rem 8px;
+}
+
+.toggleBtnCheckbox {
+    display: none;
+}
+
+.toggleBtnLabel {
+    background: linear-gradient(135deg,
+            rgba(163, 168, 240, 1) 0%,
+            rgba(105, 111, 221, 1) 100%);
+    background: rgb(0, 51, 102);
+    background: linear-gradient(90deg, rgba(0, 51, 102, 1) 0%, rgba(0, 85, 140, 1) 100%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1.6rem;
+    width: 3.3rem;
+    border-radius: 1.6rem;
+    padding: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, justify-content 0.3s ease;
+}
+
+.toggleBtnCircle {
+    background-color: #fff;
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.checkbox:checked+.toggleBtnLabel {
+    justify-content: flex-end;
+}
+
+#checkbox:checked+.toggleBtnLabel {
+    justify-content: flex-end;
+}
+
+.pricingMonthlyCardMainDiv,
+.pricingAnnuallyCardMainDiv {
+    min-height: 100%;
+    max-height: 101%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.pricingCardOne,
+.pricingCardTwo,
+.pricingCardThree {
+    min-height: 100%;
+    max-height: 101%;
+    width: 25%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(68, 68, 68, 0.57);
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.pricingCardOneHeading,
+.pricingCardTwoHeading,
+.pricingCardThreeHeading {}
+
+.pricingCardOnePriceUl,
+.pricingCardTwoPriceUl,
+.pricingCardThreePriceUl {
+    padding: 0;
+}
+
+.pricingCardOne ul li,
+.pricingCardTwo ul li,
+.pricingCardThree ul li {
+    height: max-content;
+    list-style: none;
+}
+
+.pricingCardOne ul .pricingCardOneMonthlyPlanInfo,
+.pricingCardTwo ul .pricingCardTwoMonthlyPlanInfo,
+.pricingCardThree .pricingCardThreeMonthlyPlanInfo,
+.pricingCardOne ul .pricingCardOneAnnualPlanInfo,
+.pricingCardTwo ul .pricingCardTwoAnnualPlanInfo,
+.pricingCardThree .pricingCardThreeAnnualPlanInfo {
+    margin-top: 3rem;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500 !important;
+}
+
+.pricingCardOnePrice,
+.pricingCardTwoPrice,
+.pricingCardThreePrice {
+    height: 5rem;
+    width: 100%;
+    font-weight: 800 !important;
+    text-align: center;
+}
+
+.pricingCardOnePrice,
+.pricingCardTwoPrice,
+.pricingCardThreePrice {
+    font-size: 2rem !important;
+    font-weight: 700;
+}
+
+.pricingCardOneMonthlyPrice,
+.pricingCardTwoMonthlyPrice,
+.pricingCardThreeMonthlyPrice {
+    font-size: 1rem !important;
+    font-weight: 700;
+    list-style: none;
+    vertical-align: center;
+}
+
+.pricingCardOnePlanPositiveBenefits,
+.pricingCardOnePlanNegativeBenefits,
+.pricingCardTwoPlanPositiveBenefits,
+.pricingCardTwoPlanNegativeBenefits,
+.pricingCardThreePlanPositiveBenefits,
+.pricingCardThreePlanNegativeBenefits {
+    height: max-content;
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.pricingCardOneCheckmarkCorrect,
+.pricingCardOneCheckmarkWrong,
+.pricingCardTwoCheckmarkCorrect,
+.pricingCardTwoCheckmarkWrong,
+.pricingCardThreeCheckmarkCorrect,
+.pricingCardThreeCheckmarkWrong {
+    height: 5px;
+    width: 5px;
+    margin-right: 1rem;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+}
+
+.pricingCardOneCheckmarkCorrect,
+.pricingCardTwoCheckmarkCorrect,
+.pricingCardThreeCheckmarkCorrect {
+    background-color: #40A578;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.pricingCardOneCheckmarkWrong,
+.pricingCardTwoCheckmarkWrong,
+.pricingCardThreeCheckmarkWrong {
+    background-color: #FF2929;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.pricingCardOnePlanBtn,
+.pricingCardTwoPlanBtn,
+.pricingCardThreePlanBtn {
+    height: max-content;
+    width: 100%;
+    margin-top: 4rem;
+    padding: 1rem 2rem;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid rgb(0, 51, 102);
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    background: rgb(0, 51, 102);
+    background: linear-gradient(90deg, rgba(0, 51, 102, 1) 0%, rgba(0, 85, 140, 1) 100%);
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.pricingCardOnePlanBtn:hover,
+.pricingCardTwoPlanBtn:hover,
+.pricingCardThreePlanBtn:hover {
+    background: rgb(0, 51, 102);
+    background: transparent;
+    cursor: pointer;
+    color: #000;
+    animation: pulse 0.7s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+#pricingCards>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.checkbox:checked+.toggleBtnLabel {
+    justify-content: flex-end;
+}
+
+#checkbox:checked+.toggleBtnLabel {
+    justify-content: flex-end;
+}
+
+.toggleBtnCheckbox:checked+.toggleBtnLabel {
+    justify-content: flex-end;
+}
+
+[data-plan="monthly"] {
+    display: flex;
+}
+
+[data-plan="annually"] {
+    display: none;
+}
+
+
+/* Mobile Styles */
+@media screen and (max-width: 991px) {
+
+ .productBanner,
+    .productBenefits,
+    .aboutProduct {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .productBannerHeading {
+        width: 90%
+    }
+
+    .productBenefitsRightSectionVideo {
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .productBannerLeftSection,
+    .productBannerRightSection,
+    .productBenefitsLeftSection,
+    .productBenefitsRightSection {
+        width: 100%;
+    }
+
+    .productBannerLeftSectionImg,
+    .productBenefitsRightSectionImg {
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .productBannerRightSection button {
+        width: 80%;
+        margin: 0.5rem auto;
+    }
+
+    .productBenefits {
+        flex-direction: column-reverse;
+    }
+
+    .productBenefitsCardOne,
+    .productBenefitsCardTwo,
+    .productBenefitsCardThree,
+    .productBenefitsCardFour,
+    .productBenefitsCardFive {
+        text-align: left;
+    }
+
+    .productBenefitsCardOneCheckmark,
+    .productBenefitsCardTwoCheckmark,
+    .productBenefitsCardThreeCheckmark,
+    .productBenefitsCardFourCheckmark,
+    .productBenefitsCardFiveCheckmark {
+        margin: 0 0.5rem 0 0;
+    }
+
+    .aboutProductHeading,
+    .aboutProductDescription {
+        width: 90%;
+    }
+
+    .footer1 {
+        justify-content: none;
+        padding: 0px;
+    }
+}
+
+/* Desktop Styles  */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .productBanner {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-top: 2rem;
+    }
+
+    .productBannerLeftSection {
+        width: 48%;
+    }
+
+    .productBannerLeftSectionImg {
+        height: auto;
+        width: 90%;
+        max-width: 400px;
+        display: block;
+        object-fit: contain;
+    }
+
+    .productBannerRightSection {
+        width: 48%;
+        padding-top: 1rem;
+        text-align: left;
+    }
+
+    .productBannerPreviewBtn,
+    .productBannerAddToCartBtn {
+        width: 90%;
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+
+    .productBenefits {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 2rem;
+    }
+
+    .productBenefitsLeftSection,
+    .productBenefitsRightSection {
+        width: 48%;
+        margin-bottom: 2rem;
+    }
+
+    .productBenefitsCardOne,
+    .productBenefitsCardTwo,
+    .productBenefitsCardThree,
+    .productBenefitsCardFour,
+    .productBenefitsCardFive {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .aboutProduct {
+        padding-top: 2rem;
+        text-align: left;
+    }
+
+    .aboutProductHeading {
+        font-size: 1.5rem;
+    }
+
+    .aboutProductDescription {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .container-faqHeading {
+        font-size: 1.5rem;
+    }
+
+    .container-faq .question {
+        font-size: 1.1rem;
+    }
+
+    .container-faq .answer {
+        font-size: 1rem;
+    }
+
+    .container-faq .answercont {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .pricingMonthlyCardMainDiv,
+    .pricingAnnuallyCardMainDiv {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricingCardOne,
+    .pricingCardTwo,
+    .pricingCardThree {
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+
+    .pricingMonthlyCardMainDiv,
+    .pricingAnnuallyCardMainDiv {
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .pricingCardOne,
+    .pricingCardTwo,
+    .pricingCardThree {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .pricingMonthlyCardMainDiv,
+    .pricingAnnuallyCardMainDiv {
+        width: 100%;
+  flex-wrap: wrap;
+    }
+
+    .pricingCardOne,
+    .pricingCardTwo,
+    .pricingCardThree {
+        width: 30%;
+    }
+}
